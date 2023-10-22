@@ -131,7 +131,9 @@ html {
 }
 
 .p-image-preview-container {
-    position: static;
+    position: relative;
+    line-height: normal;
+    text-align: center;
 }
 
 .p-image-preview-container svg {
@@ -154,6 +156,7 @@ html {
 .p-inputtext.p-component {
     border: 1px solid #9ca3af;
     padding: 0.5rem 0.5rem;
+    padding-right: 1rem;
     font-weight: normal;
     color: #495057 !important;
 }
