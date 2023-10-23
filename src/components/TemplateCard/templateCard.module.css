@@ -1,0 +1,14 @@
+:global(.templateCard i) {
+    font-size: 0.65rem;
+}
+
+:global(.templateCard__bg) {
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+
+:global(.templateCard__plot) {
+    max-height: 41px;
+}
+
