@@ -7,7 +7,8 @@ const Search = () => {
         formRef,
         movies,
         handleOnSearch,
-        handleOnReset
+        handleOnReset,
+        isLoading
     } = useSearch();
 
     return (
@@ -23,6 +24,7 @@ const Search = () => {
                 />
                 <MovieContainer
                     movies={movies}
+                    isLoading={isLoading}
                 />
                 <div className='w-full h-1.5'></div>
             </div>
