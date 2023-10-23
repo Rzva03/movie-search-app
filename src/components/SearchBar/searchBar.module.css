@@ -14,4 +14,9 @@
     background-color: white !important;
     color: black !important;
     padding-right: 1.2rem !important;
+    font-weight: 200 !important;
+}
+
+.searchBar__button span{
+    font-weight: 400;
 }
