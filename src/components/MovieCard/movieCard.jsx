@@ -22,8 +22,6 @@ MovieCard.propTypes = {
     title: PropTypes.string.isRequired,
     poster: PropTypes.string.isRequired,
     year: PropTypes.string.isRequired,
-    imdbRating: PropTypes.string.isRequired,
-    Plot: PropTypes.string.isRequired
 }
 
 export default MovieCard;
