@@ -11,7 +11,7 @@ const MovieContainer = (props) => {
     }
 
     return (
-        <main className='w-full flex gap-12 flex-wrap'>
+        <main className='w-full grid grid-cols-4 gap-6'>
             {movies.map((movie) => (
                 <MovieCard
                     key={`movie__${movie.imdbID}`}

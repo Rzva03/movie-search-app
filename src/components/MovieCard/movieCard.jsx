@@ -13,7 +13,7 @@ const MovieCard = (props) => {
             preview
             src={poster}
             alt={year}
-            className={`w-9/12 mx-auto sm:w-1/3 md:w-1/6 sm:mx-0 ${defaultStyles.card}`}
+            className={`${defaultStyles.card}`}
         />
     );
 }
