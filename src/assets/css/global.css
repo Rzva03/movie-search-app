@@ -61,9 +61,10 @@ html {
 
 .p-button:enabled:hover,
 .p-button:not(button):not(a):not(.p-disabled):hover {
-    background: #4F46E5 !important;
+    background: #fff !important;
     color: #ffffff;
-    border-color: #4F46E5 !important;
+    border-color: #fff !important;
+    opacity: 0.9;
 }
 
 .p-button.p-button-outlined:enabled:hover,
