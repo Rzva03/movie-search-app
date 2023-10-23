@@ -1,0 +1,17 @@
+.searchBar__input {
+    border-radius: 0;
+    border-start-start-radius: 1.5rem;
+    border-end-start-radius: 1.5rem;
+}
+
+.searchBar__button {
+    border-left: 0 !important;
+    border-start-start-radius: 0rem !important;
+    border-end-start-radius: 0rem !important;
+    border-start-end-radius: 1.5rem !important;
+    border-end-end-radius: 1.5rem !important;
+    padding: 0.5rem !important;
+    background-color: white !important;
+    color: black !important;
+    padding-right: 1.2rem !important;
+}
